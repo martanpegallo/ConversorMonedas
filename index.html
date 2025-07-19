@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1> CONVERSOR DE DIVISAS </h1>
+    <!-- Div contiene Input/Select/Button/Resultado del ejercicio-->
+    <div>
+        <input type="text" id="monto" placeholder="Ingrese el monto en pesos (CLP)">
+        <select id="monedaConvertir">
+            <option value="dolar">Dólar Estadounidense (USD)</option>
+            <option value="euro">Euro (EUR)</option>
+            <option value="uf">Unidad de Fomento (UF)</option>
+            <option value="bitcoin">Moneda Virtual (BCOIN)</option>
+        </select>
+        <button id="botonConvertir"> Calcular </button>
+        <p id="resultado"></p>
+        <p id="valorActual"></p>
+    </div>
+    <!-- div contiene Grafico -->
+    <div class="grafico">
+        <canvas id="myChart"></canvas>
+    </div>
+
+<footer>
+    <p> &copy; 2025 Todos los derechos reservados.</p>
+    <p> Develop By Soulpawa. </p>
+</footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
