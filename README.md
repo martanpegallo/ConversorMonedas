@@ -5,7 +5,7 @@ Permite una moneda nacional hasta 4 divisas seleccionables con los datos otorgad
 Ademas genera un garfico con los valores de los utikmos 10 dias de la divisa seleccionada.
 
 ## ScreenShot
-![SC] (assets/img/Captura de Pantalla 2025-07-22 a la(s) 22.35.06.png)
+![Imagen Muestra](./assets/img/Captura%20de%20Pantalla%202025-07-22%20a%20la(s)%2022.35.06.png)
 
 ## Instrucciones
 - Ingrese el monto en moneda local.
