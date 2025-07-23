@@ -1,77 +1,70 @@
 body {
-    background: linear-gradient(to right, #333, #171769);
-    color: #d9d9d9;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+  background: linear-gradient(to right, #333, #171769);
+  color: #d9d9d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 h1 {
-    color: #ffcc00;
-    text-align: center;
-    border-top: #ffcc00 1px solid;
-    border-bottom: #ffcc00 1px solid;
-    padding: 10px 0;
+  color: #ffcc00;
+  text-align: center;
+  border-top: #ffcc00 1px solid;
+  border-bottom: #ffcc00 1px solid;
+  padding: 10px 0;
 }
 div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #222;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 p {
-    color: #898787;
-    font-size: 1.2em;
-    line-height: 1.5;
-    margin: 10px 0;
+  color: #898787;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 10px 0;
 }
 input {
-    padding: 10px;
-    border: 1px solid #555;
-    border-radius: 4px;
-    background-color: #333;
-    color: #d9d9d9;
-    width: 100%;
-    max-width: 300px;
-    box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #d9d9d9;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
 }
 select {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #444;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
 }
 button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ffcc00;
-    color: #222;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #222;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
 }
 button:hover {
-    background-color: #c29b00;
-}
-a {
-    color: #ffcc00;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+  background-color: #c29b00;
 }
 footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    background-color: #222;
-    color: #888;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  background-color: #222;
+  color: #888;
 }
